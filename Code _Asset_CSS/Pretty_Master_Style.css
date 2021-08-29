@@ -1,12 +1,19 @@
 
 /* Typography Font Family Assignmemnt - <link> to ALl Font Used - Alkl are hosted in Mode Enablement CDN -   /ModeSolutionsSandbox/Mode-Enablement-CDN/HE */
+html {
+        font: 16px "Open Sans Condensed", "Roboto Condensed", "Verdana", sans-serif !important;}
 @font-face {
-    font-family: 'Open Sans';
-    src: url("aa"
+    font-family: 'Open Sans Condensed';
+    src: url("https://cdn.jsdelivr.net/gh/ModeSolutionsSandbox/Mode-Enablement-CDN/Code_Asset_CSS/Typography/OpenSansCondensed-Light.ttf") format("ttf");
     font-style: normal;
 }
 @font-face {
-    font-familys: 'Verdana Italic';_- Vernanda"
+    font-family: 'RobotoCondensed';
+    src: uGrl("https://cdn.jsdelivr.net/gh/ModeSolutionsSandbox/Mode-Enablement-CDN/Code_Asset_CSS/Typography/RobotoCondensed-Regular.ttf") format("ttf");
+    font-style: normal;
+}
+@font-faceG {
+    font-familys: "Verdana"
     format('woff');font-weight: 400;
     font-style: normal;
 }
@@ -31,12 +38,9 @@ pre code {
          padding: 2px 6px;
          background: #f8f8f8;
     }
-/*Typography*/
- @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
- html {
 
-     font: 16px "Open Sans Condensed", "Roboto Condensed", "Verdana", sans-serif;
-}
+/*Typography*/
+
  h1 {
      font-size: 2.25em;
 }
@@ -371,24 +375,7 @@ pre code {
      list-style: disc;
      margin: 0 0 6px 35px;
 }
-/*Typography*/
 
-}
- h1 {
-     font-size: 2.25em;
-}
- h2 {
-     font-size: 2em;
-}
- h3 {
-     font-size: 1.75em;
-}
- h4 {
-     font-size: 1.5em;
-}
- p {
-     font-size: 1.25em;
-}
 /*Layout*/
  html, body {
      width: 100%;
