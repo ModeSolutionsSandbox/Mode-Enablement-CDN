@@ -10,10 +10,10 @@ html {
 }
 @font-face {
     font-family: 'RobotoCondensed';
-    src: uGrl("https://cdn.jsdelivr.net/gh/ModeSolutionsSandbox/Mode-Enablement-CDN/Code_Asset_CSS/Typography/RobotoCondensed-Regular.ttf") format("ttf");
+    src: url("https://cdn.jsdelivr.net/gh/ModeSolutionsSandbox/Mode-Enablement-CDN/Code_Asset_CSS/Typography/RobotoCondensed-Regular.ttf") format("ttf");
     font-style: normal;
 }
-@font-faceG {
+@font-face {
     font-familys: "Verdana"
     format('woff');font-weight: 400;
     font-style: normal;
@@ -710,26 +710,6 @@ pre code {
      transform: translateY(-50%);
 }
 
-/*Typography*/
- @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
- html {
-     font: 16px "Open Sans Condensed", "Roboto Condensed", Verdana, sans-serif;
-}
- h1 {
-     font-size: 2.25em;
-}
- h2 {
-     font-size: 2em;
-}
- h3 {
-     font-size: 1.75em;
-}
- h4 {
-     font-size: 1.5em;
-}
- p {
-     font-size: 1.25em;
-}
 /*Layout*/
  html, body {
      width: 100%;
@@ -1069,8 +1049,6 @@ pre code {
  body {
      margin: 0;
 }
-/* Links ========================================================================== */
-/* * Remove the outline on focused links when they are also active or hovered */
  a:active, a:hover {
      outline: none;
 }
@@ -1529,9 +1507,7 @@ pre code {
 /* Small ========================================================================== */
 /* * 1. Fix height because of `inline-block` * 2. Using ::after and inline-block to make `text-align` work */
 /* 1 */
- .uk-divider-small {
-     line-height: 0;
-}
+
 /* 2 */
  .uk-divider-small::after {
      content: "";
