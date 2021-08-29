@@ -1,7 +1,8 @@
 
 /* Typography Font Family Assignmemnt - <link> to ALl Font Used - Alkl are hosted in Mode Enablement CDN -   /ModeSolutionsSandbox/Mode-Enablement-CDN/HE */
 html {
-        font: 16px "Open Sans Condensed", "Roboto Condensed", "Verdana", sans-serif !important;}
+        font-family: "Open Sans Condensed", "Roboto Condensed", "Verdana", sans-serif !important;
+}
 @font-face {
     font-family: 'Open Sans Condensed';
     src: url("https://cdn.jsdelivr.net/gh/ModeSolutionsSandbox/Mode-Enablement-CDN/Code_Asset_CSS/Typography/OpenSansCondensed-Light.ttf") format("ttf");
